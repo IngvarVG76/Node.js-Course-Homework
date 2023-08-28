@@ -1,0 +1,21 @@
+{
+  "name": "node.js-course-homework",
+  "version": "1.0.0",
+  "description": "node.js-course-homework",
+  "main": "index.js",
+  "type": "module",  
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "IngvarVG76",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "dependencies": {
+    "commander": "^11.0.0",
+    "nanoid": "^4.0.2"
+  }
+}
